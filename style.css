@@ -1,0 +1,57 @@
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+ 
+ *:focus,
+ *:active {
+   outline: none !important;
+   -webkit-tap-highlight-color: transparent;
+ }
+ 
+ html,
+ body {
+   display: grid;
+   height: 100%;
+   width: 100%;
+   font-family: "Poppins", sans-serif;
+   place-items: center;
+   background: linear-gradient(315deg, #ffffff, #d7e1ec);
+ }
+div.tt ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid rgb(235, 238, 46);
+  background-color:rgb(235, 238, 46);
+
+}
+
+div.tt li {
+  float: left;
+}
+
+div.tt li a {
+
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+
+}
+
+div.tt li a:hover:not(.active) {
+  background-color:rgb(235, 238, 46); 
+  
+
+}
+
+div.tt li a.active {
+  color: rgb(235, 238, 46);
+  background-color: #7006e0;
+}
